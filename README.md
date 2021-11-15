@@ -7,3 +7,8 @@
     - get manager to add to groups
         - `sec-catalyst@wpengine.com`
         - `sec-softwareengineers@wpengine.com`
+- Custom stuff
+    - oh my zsh
+    - p10k theme
+    - homebrew
+    - kubectx
