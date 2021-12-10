@@ -115,3 +115,14 @@ if [ -f '/Users/thang.thin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/than
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/thang.thin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/thang.thin/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Thang Alias setting
+if [ -f '/Users/thang.thin/thang-alias.zsh.inc' ]; then . '/Users/thang.thin/thang-alias.zsh.inc'; fi
+
+# Thang PATH
+if [ -f '/Users/thang.thin/thang-zshenv.zsh' ]; then . '/Users/thang.thin/thang-zshenv.zsh'; fi
+
+# Thang kubectl autocomplete
+source <(kubectl completion zsh)
+alias k=kubectl
+compdef __start_kubectl k
